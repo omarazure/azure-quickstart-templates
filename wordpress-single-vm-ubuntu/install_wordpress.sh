@@ -18,7 +18,7 @@ apt-get -y install apache2 mysql-server php5 php5-mysql wordpress
 gzip -d /usr/share/doc/wordpress/examples/setup-mysql.gz
 bash /usr/share/doc/wordpress/examples/setup-mysql -n wordpress localhost
 
-ln -s /usr/share/wordpress /var/www/html/wordpress
+ln -s /usr/share/wordpress /var/www/html
 mv /etc/wordpress/config-localhost.php /etc/wordpress/config-default.php
 
 # Restart Apache
